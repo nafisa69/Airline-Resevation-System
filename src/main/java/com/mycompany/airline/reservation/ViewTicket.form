@@ -231,39 +231,18 @@
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="lname">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="jLabel12"/>
-          </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="fname">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="jLabel12"/>
-          </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="gen">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="jLabel12"/>
-          </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="dep">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="jLabel12"/>
-          </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="cont">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="jLabel12"/>
-          </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="flname">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="jLabel12"/>
-          </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="arrival">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="jLabel12"/>
-          </Properties>
         </Component>
       </SubComponents>
     </Container>

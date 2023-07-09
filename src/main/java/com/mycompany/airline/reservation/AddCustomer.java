@@ -245,7 +245,7 @@ public class AddCustomer extends javax.swing.JInternalFrame {
             }
         });
 
-        jButton2.setText("DELETE");
+        jButton2.setText("CANCEL");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
@@ -300,6 +300,7 @@ public class AddCustomer extends javax.swing.JInternalFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
+        this.setVisible(false);
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
@@ -343,11 +344,10 @@ public class AddCustomer extends javax.swing.JInternalFrame {
             JOptionPane.showMessageDialog(null,"Customer Added Successfully");
             
             
-        } catch (ClassNotFoundException ex) {
-            Logger.getLogger(AddCustomer.class.getName()).log(Level.SEVERE, null, ex);
-        } catch (SQLException ex) {
+        } catch (ClassNotFoundException | SQLException ex) {
             Logger.getLogger(AddCustomer.class.getName()).log(Level.SEVERE, null, ex);
         }
+        this.setVisible(false);
             
     }//GEN-LAST:event_jButton1ActionPerformed
 

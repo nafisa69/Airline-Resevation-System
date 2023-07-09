@@ -85,20 +85,6 @@ public class ViewTicket extends javax.swing.JInternalFrame {
         jLabel11.setFont(new java.awt.Font("Bahnschrift", 0, 14)); // NOI18N
         jLabel11.setText("Contact");
 
-        lname.setText("jLabel12");
-
-        fname.setText("jLabel12");
-
-        gen.setText("jLabel12");
-
-        dep.setText("jLabel12");
-
-        cont.setText("jLabel12");
-
-        flname.setText("jLabel12");
-
-        arrival.setText("jLabel12");
-
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
